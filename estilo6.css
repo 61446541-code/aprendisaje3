@@ -1,0 +1,46 @@
+main#degra{
+    border: 1px solid black;
+    max-width: 1005px;
+    transform: translate(200px);
+    background:  linear-gradient(60deg, #d9b59c,#f4f4f4);
+}
+header{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  
+}
+nav.nav a{
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+}
+form{
+    transform: translate(500px,-310px);
+}
+form {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+form div {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+iframe{
+margin-top: -300px;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+}

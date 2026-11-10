@@ -1,0 +1,45 @@
+header{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  
+}
+nav.nav a{
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+}
+div#nosotros{
+    text-align: center;
+     border: 1px solid black;
+     width: 1000px;
+     transform: translate(180px);
+     background-color: black;
+}
+div#nosotros h3{
+    color: aliceblue;
+}
+table{
+   width: 535px;
+    margin-left: 181px;
+}
+div#nou{
+        text-align: center;
+    border: 1px solid black;
+    width: 1000px;
+    transform: translate(180px, 5px);
+    background-color: black;
+
+}
+div#nou h2{
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}

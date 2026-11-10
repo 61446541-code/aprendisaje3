@@ -1,0 +1,45 @@
+body{
+     background-color: antiquewhite;
+    width: 130%;
+    max-width: 1300px;
+    margin-top: o auto;
+    padding-bottom: 500px;
+}
+.titulo a{
+    text-decoration: none;
+     
+    color: rgb(31, 38, 43);
+}
+.titulo{
+ width: 110%;
+ text-align: center;
+ font-size:350%;
+}
+nav.nav{
+    text-align: center;
+    
+      
+}
+nav.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 80px;
+    font-size: 200%;
+}
+.imagenes{
+    font-size: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 35px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+ .imagenes img {
+  width: 80%;
+  padding: 0 35px;
+  height: auto;
+  display: block;
+  object-fit: cover;
+ }

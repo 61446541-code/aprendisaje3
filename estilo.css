@@ -1,0 +1,56 @@
+
+
+
+.imagen{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   background-image: url(imagenes/CSFE.jpg);
+   background-size: cover;
+   background-position: center;
+}
+header h3{
+    color: aliceblue;
+    font-size: 130px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+header p{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+nav.nav{
+  color: aliceblue;
+  padding: 15px 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+nav.nav a{
+   color: aliceblue;
+   text-decoration: none;
+   margin: 0 20px;
+   font-size: 18px;
+   font-weight: bold;
+}
+div.redes {
+  
+  padding: 12px 25px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+div.redes a{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+   border-radius: 200px;
+   
+}
